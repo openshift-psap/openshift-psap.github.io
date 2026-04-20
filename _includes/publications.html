@@ -1,0 +1,23 @@
+<section class="section" id="publications">
+  <div class="container">
+    <div class="section-header">
+      <h2>Publications</h2>
+      <span class="count">{{ site.data.publications | size }}</span>
+    </div>
+    <div class="card-grid">
+      {% assign pubs = site.data.publications | sort: "year" | reverse %}
+      {% for pub in pubs %}
+        <div class="card">
+          <h3><a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+          {% if pub.abstract %}<p>{{ pub.abstract }}</p>{% endif %}
+          <div class="card-meta">
+            <span>{{ pub.venue }}</span>
+          </div>
+          <div class="card-meta">
+            <span>{{ pub.authors }}</span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

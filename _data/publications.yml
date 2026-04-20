@@ -1,0 +1,10 @@
+# Academic publications by the PSAP team.
+# Fields: title, url, authors, venue, year, doi, abstract (optional one-sentence summary)
+
+- title: "llm-tuna: Hyperparameter Optimization for LLM Inference"
+  url: https://dl.acm.org/doi/10.1145/3774904.3792953
+  authors: "Thameem Abbas Ibrahim Bathusha, Aanya Sharma, Andy Huynh, R.C. Samaratunga, Ashish Kamra"
+  venue: "ACM Web Conference 2026 (WWW '26)"
+  year: 2026
+  doi: "10.1145/3774904.3792953"
+  abstract: "An open-source framework that automates vLLM inference hyperparameter optimization using Bayesian search via Optuna, achieving up to 32.9% throughput improvement on mixture-of-experts models."
