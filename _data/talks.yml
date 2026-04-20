@@ -24,3 +24,10 @@
   speakers: "David Gray (Red Hat)"
   event: "KubeCon + CloudNativeCon North America 2024"
   date: "2024-11-13"
+
+- title: "Efficiently Deploying and Benchmarking LLMs in Kubernetes"
+  url: https://www.youtube.com/watch?v=ij9gPk8ChQ8
+  speakers: "Nikhil Palaskar (Red Hat)"
+  event: "DevConf.US 2024"
+  date: "2024-08-14"
+
