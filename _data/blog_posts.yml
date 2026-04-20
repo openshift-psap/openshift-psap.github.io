@@ -97,7 +97,3 @@
 - title: "Entitlement-Free Deployment of the NVIDIA GPU Operator on OpenShift"
   url: https://www.redhat.com/en/blog/entitlement-free-deployment-of-the-nvidia-gpu-operator-on-openshift
   date: "2022-06-01" # approx
-
-- title: "Launching OpenShift/Kubernetes Support for Solarflare Cloud Onload"
-  url: https://www.redhat.com/en/blog/launching-openshift-kubernetes-support-for-solarflare-cloud-onload
-  date: "2019-10-14"
