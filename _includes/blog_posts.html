@@ -15,8 +15,10 @@
         {% assign current_year = year %}
       {% endif %}
       <li class="blog-compact-item" data-blog-index="{{ forloop.index }}">
-        <a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>
-        {% if post.date %}<span class="blog-meta">{{ post.date | date: "%b %-d, %Y" }}</span>{% endif %}
+        <span class="blog-title-authors">
+          <a href="{{ post.url }}" target="_blank" rel="noopener">{{ post.title }}</a>{% if post.authors %}<span class="blog-authors"> | {{ post.authors }}</span>{% endif %}
+        </span>
+        <span class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</span>
       </li>
       {% if forloop.last %}</ul>{% endif %}
     {% endfor %}

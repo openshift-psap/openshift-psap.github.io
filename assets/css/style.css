@@ -247,7 +247,6 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
   align-items: baseline;
   gap: 1rem;
-  flex-wrap: wrap;
 }
 
 .blog-compact-item a {
@@ -257,7 +256,11 @@ a:hover { text-decoration: underline; }
 }
 .blog-compact-item a:hover { color: var(--red); text-decoration: none; }
 
-.blog-meta { font-size: 0.78rem; color: var(--gray); white-space: nowrap; }
+.blog-title-authors { flex: 1; min-width: 0; }
+
+.blog-authors { font-size: 0.78rem; color: var(--gray); }
+
+.blog-date { font-size: 0.78rem; color: var(--gray); white-space: nowrap; flex-shrink: 0; }
 
 .blog-show-more-btn {
   display: block;
