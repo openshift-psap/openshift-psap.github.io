@@ -13,6 +13,12 @@
   event: "KubeCon + CloudNativeCon North America 2025"
   date: "2025-11-11"
 
+- title: "Learn How to Run an LLM Inference Performance Benchmark on NVIDIA GPUs"
+  url: https://www.youtube.com/watch?v=otCouSz64Z8
+  speakers: "Samuel Monson (Red Hat), Ashish Kamra (Red Hat)"
+  event: "DevConf.US 2025"
+  date: "2025-09-20"
+
 - title: "Multi-Node Finetuning LLMs on Kubernetes: A Practitioner's Guide"
   url: https://www.youtube.com/watch?v=r91cFu2YHuo
   speakers: "Ashish Kamra (Red Hat), Boaz Ben Shabat (Red Hat)"
