@@ -1,0 +1,45 @@
+<section class="section" id="talks">
+  <div class="container">
+    <div class="section-header">
+      <h2>Conference Talks</h2>
+      <span class="count">{{ site.data.talks | size }}</span>
+    </div>
+    <div class="card-grid">
+      {% assign talks = site.data.talks | sort: "date" | reverse %}
+      {% for talk in talks %}
+        <div class="card talk-card">
+          {% assign is_youtube = false %}
+          {% if talk.url contains "youtube.com/watch" %}
+            {% assign is_youtube = true %}
+            {% assign video_id = talk.url | split: "v=" | last | split: "&" | first %}
+          {% elsif talk.url contains "youtu.be/" %}
+            {% assign is_youtube = true %}
+            {% assign video_id = talk.url | split: "youtu.be/" | last | split: "?" | first %}
+          {% endif %}
+
+          {% if is_youtube %}
+            <div class="talk-embed">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/{{ video_id }}"
+                title="{{ talk.title }}"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+              </iframe>
+            </div>
+          {% endif %}
+
+          <h3>
+            <a href="{{ talk.url }}" target="_blank" rel="noopener">{{ talk.title }}</a>
+          </h3>
+          {% if talk.speakers %}
+            <p>{{ talk.speakers }}</p>
+          {% endif %}
+          <div class="card-meta">
+            {% if talk.event %}<span class="badge">{{ talk.event }}</span>{% endif %}
+            {% if talk.date %}<span>{{ talk.date | date: "%B %-d, %Y" }}</span>{% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="site-brand">
+          <a href="{{ '/' | relative_url }}" class="site-title">PSAP</a>
+          <span class="site-tagline">Performance and Scale for AI Platforms</span>
+        </div>
+        <nav class="site-nav">
+          <a href="#projects">Projects</a>
+          <a href="#blog">Blogs</a>
+          <a href="#talks">Talks</a>
+          <a href="#upstream">Upstream</a>
+          <a href="https://github.com/openshift-psap" class="nav-github" target="_blank" rel="noopener">GitHub ↗</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>
+        PSAP &mdash; Performance and Scale for AI Platforms &mdash;
+        <a href="https://github.com/openshift-psap" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

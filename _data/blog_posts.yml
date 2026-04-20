@@ -1,0 +1,103 @@
+# Blog posts written by or related to the PSAP team.
+# Fields: title, url, date (YYYY-MM-DD), summary (optional)
+# Dates marked "# approx" are estimated — please verify.
+
+- title: "Performance improvements with speculative decoding in vLLM for gpt-oss"
+  url: https://developers.redhat.com/articles/2026/04/16/performance-improvements-speculative-decoding-vllm-gpt-oss
+  date: "2026-04-16"
+
+- title: "Red Hat and NVIDIA: Setting standards for high-performance AI inference"
+  url: https://www.redhat.com/en/blog/red-hat-and-nvidia-setting-standards-high-performance-ai-inference
+  date: "2026-04-02"
+
+- title: "Red Hat AI tops MLPerf Inference v6.0 with vLLM on Qwen3-VL, Whisper, and GPT-OSS-120B"
+  url: https://www.redhat.com/en/blog/red-hat-ai-tops-mlperf-inference-v60-vllm-qwen3-vl-whisper-and-gpt-oss-120b
+  date: "2026-04-01"
+
+- title: "Configure NVIDIA Blackwell GPUs for Red Hat AI workloads"
+  url: https://developers.redhat.com/articles/2026/03/16/configure-nvidia-blackwell-gpus-red-hat-ai-workloads
+  date: "2026-03-16"
+
+- title: "5 steps to triage vLLM performance"
+  url: https://developers.redhat.com/articles/2026/03/09/5-steps-triage-vllm-performance
+  date: "2026-03-09"
+
+- title: "How to deploy and benchmark vLLM with GuideLLM on Kubernetes"
+  url: https://developers.redhat.com/articles/2025/12/24/how-deploy-and-benchmark-vllm-guidellm-kubernetes
+  date: "2025-12-24"
+
+- title: "Autoscaling vLLM with OpenShift AI model serving: Performance validation"
+  url: https://developers.redhat.com/articles/2025/11/26/autoscaling-vllm-openshift-ai-model-serving
+  date: "2025-11-26"
+
+- title: "Efficient and reproducible LLM inference with Red Hat: MLPerf Inference v5.1 results"
+  url: https://www.redhat.com/en/blog/efficient-and-reproducible-llm-inference-red-hat-mlperf-inference-v51-results
+  date: "2025-10-31"
+
+- title: "vLLM or llama.cpp: Choosing the right LLM inference engine for your use case"
+  url: https://developers.redhat.com/articles/2025/09/30/vllm-or-llamacpp-choosing-right-llm-inference-engine-your-use-case
+  date: "2025-09-30"
+
+- title: "How to set up KServe autoscaling for vLLM with KEDA"
+  url: https://developers.redhat.com/articles/2025/09/23/how-set-kserve-autoscaling-vllm-keda
+  date: "2025-09-23"
+
+- title: "Benchmarking with GuideLLM in air-gapped OpenShift clusters"
+  url: https://developers.redhat.com/articles/2025/09/15/benchmarking-guidellm-air-gapped-openshift-clusters
+  date: "2025-09-15"
+
+- title: "Ollama vs. vLLM: A deep dive into performance benchmarking"
+  url: https://developers.redhat.com/articles/2025/08/08/ollama-vs-vllm-deep-dive-performance-benchmarking
+  date: "2025-08-08"
+
+- title: "MLPerf Inference v5.0 results with Supermicro's GH200 Grace Hopper Superchip-based Server and Red Hat OpenShift"
+  url: https://www.redhat.com/en/blog/mlperf-inference-v50-results
+  date: "2025-05-01" # approx
+
+- title: "How to run performance and scale validation for OpenShift AI"
+  url: https://developers.redhat.com/articles/2025/04/30/how-run-performance-and-scale-validation-openshift-ai
+  date: "2025-04-30"
+
+- title: "Unlocking the Effective Context Length: Benchmarking the Granite-3.1-8b Model"
+  url: https://www.redhat.com/en/blog/unlocking-effective-context-length-benchmarking-granite-31-8b-model
+  date: "2025-02-12"
+
+- title: "Achieve better large language model inference with fewer GPUs"
+  url: https://www.redhat.com/en/blog/achieve-better-large-language-model-inference-fewer-gpus
+  date: "2024-12-03"
+
+- title: "Accelerating generative AI adoption: Red Hat OpenShift AI achieves impressive results in MLPerf inference benchmarks with vLLM runtime"
+  url: https://www.redhat.com/en/blog/accelerating-generative-ai-adoption-red-hat-openshift-ai-achieves-impressive-results-mlperf-inference-benchmarks-vllm-runtime
+  date: "2024-11-24" # approx
+
+- title: "Generative AI fine-tuning of LLMs: Red Hat and Supermicro showcase outstanding results for efficient Llama-2-70b fine tuning using LoRA in MLPerf Training v4.0"
+  url: https://www.redhat.com/en/blog/generative-ai-fine-tuning-llms-red-hat-and-supermicro-showcase
+  date: "2024-11-01" # approx
+
+- title: "Sharing is caring: How to make the most of your GPUs (part 2 — Multi-instance GPU)"
+  url: https://www.redhat.com/en/blog/sharing-caring-how-make-most-your-gpus-part-2-multi-instance-gpu
+  date: "2024-09-01" # approx
+
+- title: "Sharing is caring: How to make the most of your GPUs (part 1 — time-slicing)"
+  url: https://www.redhat.com/en/blog/sharing-caring-how-make-most-your-gpus-part-1-time-slicing
+  date: "2024-07-02"
+
+- title: "Continuous performance and scale validation of Red Hat OpenShift AI model-serving stack"
+  url: https://www.redhat.com/en/blog/continuous-performance-and-scale-validation-red-hat-openshift-ai-model-serving-stack
+  date: "2024-06-01" # approx
+
+- title: "Evaluating LLM inference performance on Red Hat OpenShift AI"
+  url: https://www.redhat.com/en/blog/evaluating-llm-inference-performance-red-hat-openshift-ai
+  date: "2024-01-16"
+
+- title: "A Guide to Scaling OpenShift Data Science to Hundreds of Users and Notebooks"
+  url: https://www.redhat.com/en/blog/a-guide-to-scaling-openshift-data-science-to-hundreds-of-users-and-notebooks
+  date: "2023-01-01" # approx
+
+- title: "Entitlement-Free Deployment of the NVIDIA GPU Operator on OpenShift"
+  url: https://www.redhat.com/en/blog/entitlement-free-deployment-of-the-nvidia-gpu-operator-on-openshift
+  date: "2022-06-01" # approx
+
+- title: "Launching OpenShift/Kubernetes Support for Solarflare Cloud Onload"
+  url: https://www.redhat.com/en/blog/launching-openshift-kubernetes-support-for-solarflare-cloud-onload
+  date: "2019-10-14"

@@ -1,0 +1,8 @@
+# Repos to feature on the home page. Use the exact GitHub repo slug (name only, not full URL).
+# Example: for https://github.com/openshift-psap/topsail, use "topsail"
+- name: auto-tuning-vllm
+- name: performance-dashboard
+- name: mlperf-inference-6.0-redhat
+- name: LLM-inference-benchmark-guide
+- name: llm-d-bench
+- name: llamastack-performance

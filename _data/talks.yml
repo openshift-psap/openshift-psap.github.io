@@ -1,0 +1,26 @@
+# Conference talks by PSAP team members.
+# Fields: title, url (any — YouTube videos are auto-embedded), speakers, event, date (YYYY-MM-DD)
+
+- title: "A Cross-Industry Benchmarking Tutorial for Distributed LLM Inference on Kubernetes"
+  url: https://www.youtube.com/watch?v=RVQwP-apF-A
+  speakers: "Ganesh Kudleppanavar (NVIDIA), Jason Kramberger (Google), Jing Chen (IBM Research), Samuel Monson (Red Hat)"
+  event: "KubeCon + CloudNativeCon Europe 2026"
+  date: "2026-03-24"
+
+- title: "Routing Stateful AI Workloads in Kubernetes"
+  url: https://www.youtube.com/watch?v=-C76naL3PRc
+  speakers: "Maroon Ayoub (IBM Research), Michey Mehta (Red Hat)"
+  event: "KubeCon + CloudNativeCon North America 2025"
+  date: "2025-11-11"
+
+- title: "Multi-Node Finetuning LLMs on Kubernetes: A Practitioner's Guide"
+  url: https://www.youtube.com/watch?v=r91cFu2YHuo
+  speakers: "Ashish Kamra (Red Hat), Boaz Ben Shabat (Red Hat)"
+  event: "KubeCon + CloudNativeCon India 2024"
+  date: "2024-12-11"
+
+- title: "Optimizing Load Balancing and Autoscaling for Large Language Model (LLM) Inference on Kubernetes"
+  url: https://www.youtube.com/watch?v=TSEGAh1bs4A
+  speakers: "David Gray (Red Hat)"
+  event: "KubeCon + CloudNativeCon North America 2024"
+  date: "2024-11-13"

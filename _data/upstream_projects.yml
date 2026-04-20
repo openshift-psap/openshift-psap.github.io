@@ -1,0 +1,7 @@
+# Upstream open-source projects the PSAP team actively contributes to.
+# Fields: name, url, org, description, role
+- name: "GuideLLM"
+  url: https://github.com/vllm-project/guidellm
+  org: "vllm-project"
+  description: "SLO-aware benchmarking and evaluation platform for LLM deployments that simulates production workloads against OpenAI-compatible and vLLM-native servers."
+  role: "Maintainer"

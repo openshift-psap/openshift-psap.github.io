@@ -1,0 +1,22 @@
+<section class="section" id="upstream">
+  <div class="container">
+    <div class="section-header">
+      <h2>Other Upstream Projects Maintained</h2>
+      <span class="count">{{ site.data.upstream_projects | size }}</span>
+    </div>
+    <div class="upstream-grid">
+      {% for project in site.data.upstream_projects %}
+        <div class="upstream-card">
+          <span class="org">{{ project.org }}</span>
+          <h3><a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a></h3>
+          {% if project.description %}
+            <p>{{ project.description }}</p>
+          {% endif %}
+          {% if project.role %}
+            <span class="role">{{ project.role }}</span>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
