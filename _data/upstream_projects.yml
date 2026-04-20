@@ -1,5 +1,23 @@
-# Upstream open-source projects the PSAP team actively contributes to.
+# Featured projects by the PSAP team.
 # Fields: name, url, org, description, role
+- name: "auto-tuning-vllm"
+  url: https://github.com/openshift-psap/auto-tuning-vllm
+  org: "openshift-psap"
+  description: "Auto-tuning for vLLM using Optuna and GuideLLM to find optimal hyperparameters and get the best performance out of your LLM deployment."
+  role: "Creator"
+
+- name: "performance-dashboard"
+  url: https://github.com/openshift-psap/performance-dashboard
+  org: "openshift-psap"
+  description: "Interactive performance analysis dashboard for Red Hat AI Inference Server benchmarks across different accelerators, versions, and configurations."
+  role: "Creator"
+
+- name: "llm-d-bench"
+  url: https://github.com/openshift-psap/llm-d-bench
+  org: "openshift-psap"
+  description: "Benchmarking automation for llm-d distributed LLM inference on Kubernetes."
+  role: "Creator"
+
 - name: "GuideLLM"
   url: https://github.com/vllm-project/guidellm
   org: "vllm-project"
