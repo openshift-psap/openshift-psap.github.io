@@ -1,6 +1,12 @@
 # Conference talks by PSAP team members.
 # Fields: title, url (any — YouTube videos are auto-embedded), speakers, event, date (YYYY-MM-DD)
 
+- title: "GuideLLM v0.7.0+: Benchmarking Reasoning, Tool Calling, and Agentic Traces"
+  url: "https://www.youtube.com/watch?v=dQAByb7N5QQ&t=2013"
+  speakers: "Samuel Monson (Red Hat), Jared O'Connell (Red Hat)"
+  event: "vLLM Office Hours #56"
+  date: "2026-09-20"
+
 - title: "A Cross-Industry Benchmarking Tutorial for Distributed LLM Inference on Kubernetes"
   url: https://www.youtube.com/watch?v=RVQwP-apF-A
   speakers: "Samuel Monson (Red Hat), Ganesh Kudleppanavar (NVIDIA), Jason Kramberger (Google), Jing Chen (IBM Research)"
