@@ -77,6 +77,11 @@
   date: "2025-02-12"
   authors: "Tushar Katarki, Nikhil Palaskar"
 
+- title: "RoCE multi-node AI training on Red Hat OpenShift"
+  url: https://developers.redhat.com/learn/openshift/roce-multi-node-ai-training-red-hat-openshift
+  date: "2025-01-30"
+  authors: "Boaz Ben Shabat"
+
 - title: "Achieve better large language model inference with fewer GPUs"
   url: https://www.redhat.com/en/blog/achieve-better-large-language-model-inference-fewer-gpus
   date: "2024-12-03"
