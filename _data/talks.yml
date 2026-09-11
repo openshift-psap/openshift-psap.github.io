@@ -7,6 +7,12 @@
   event: "vLLM Office Hours #56"
   date: "2026-09-20"
 
+- title: "KV Cache-Aware Routing and P/D Disaggregation on Kubernetes"
+  url: "https://www.youtube.com/watch?v=YXowceUKYJI"
+  speakers: "Yuchen Fama & Ashish Kamra (Red Hat)"
+  event: "AI Engineer World's Fair 2026"
+  date: "2026-07-02"
+
 - title: "A Cross-Industry Benchmarking Tutorial for Distributed LLM Inference on Kubernetes"
   url: https://www.youtube.com/watch?v=RVQwP-apF-A
   speakers: "Samuel Monson (Red Hat), Ganesh Kudleppanavar (NVIDIA), Jason Kramberger (Google), Jing Chen (IBM Research)"
