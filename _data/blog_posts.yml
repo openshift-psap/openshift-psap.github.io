@@ -2,7 +2,7 @@
 # Fields: title, url, date (YYYY-MM-DD), authors, summary (optional)
 # Dates marked "# approx" are estimated — please verify.
 
-- title: Opening the black box: Profiling a secured agentic pipeline on Red Hat OpenShift AI
+- title: "Opening the black box: Profiling a secured agentic pipeline on Red Hat OpenShift AI"
   url: https://www.redhat.com/en/blog/opening-black-box-profiling-secured-agentic-pipeline-red-hat-openshift-ai
   date: "2026-09-15"
   authors: "Ariel Harush, Alex Calhoun"
