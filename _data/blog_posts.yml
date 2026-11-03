@@ -2,6 +2,11 @@
 # Fields: title, url, date (YYYY-MM-DD), authors, summary (optional)
 # Dates marked "# approx" are estimated — please verify.
 
+- title: "Benchmarking tiered KV cache offloading on H100 GPUs in OpenShift AI 3.5"
+  url: https://developers.redhat.com/articles/2026/11/02/benchmarking-tiered-kv-cache-offloading-h100-gpus-openshift-ai-3-5
+  date: "2026-11-02"
+  authors: "Ramesh Doddaiah, Alberto Perdomo, Nathan Scott, Ashish Kamra, Michey Mehta, Yuchen Fama, Naina Singh"
+
 - title: "Red Hat delivers peak performance on Kubernetes and CPUs in MLPerf Inference v6.1"
   url: https://www.redhat.com/en/blog/red-hat-delivers-peak-performance-kubernetes-cpus-mlperf-inference-v61
   date: "2026-09-29"
