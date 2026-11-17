@@ -4,3 +4,10 @@ _site/
 *.pdf
 *.swp
 team-psap.csv
+
+# Local tool/agent state
+.claude/
+
+# Stray working files, not site assets
+misalign.png
+Red-Hat-Performance-and-Scale-Engineering-Logo-small.png
