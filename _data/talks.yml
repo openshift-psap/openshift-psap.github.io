@@ -1,6 +1,12 @@
 # Conference talks by PSAP team members.
 # Fields: title, url (any — YouTube videos are auto-embedded), speakers, event, date (YYYY-MM-DD)
 
+- title: "From Memory Budget to Cost Per Token: Serving Agentic Traffic with Large Open Weight Models"
+  url: "https://www.finos.org/osff-new-york-2026-videos#from-memory-budget-to-cost-per-token-serving-agentic-traffic-with-large-open-weight-models"
+  speakers: "Yuchen Fama (Red Hat), Ashish Kamra (Red Hat)"
+  event: "Open Source in Finance Forum New York 2026"
+  date: "2026-11-04"
+
 - title: "GuideLLM v0.7.0+: Benchmarking Reasoning, Tool Calling, and Agentic Traces"
   url: "https://www.youtube.com/watch?v=dQAByb7N5QQ&t=2013"
   speakers: "Samuel Monson (Red Hat), Jared O'Connell (Red Hat)"
