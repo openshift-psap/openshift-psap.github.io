@@ -1,25 +1,49 @@
 # Featured projects by the PSAP team.
 # Fields: name, url, org, description, role
-- name: "auto-tuning-vllm"
-  url: https://github.com/openshift-psap/auto-tuning-vllm
-  org: "openshift-psap"
-  description: "Auto-tuning for vLLM using Optuna and GuideLLM to find optimal hyperparameters and get the best performance out of your LLM deployment."
-  role: "Creator"
-
-- name: "performance-dashboard"
-  url: https://github.com/openshift-psap/performance-dashboard
-  org: "openshift-psap"
-  description: "Interactive performance analysis dashboard for Red Hat AI Inference Server benchmarks across different accelerators, versions, and configurations."
-  role: "Creator"
-
-- name: "llm-d-bench"
-  url: https://github.com/openshift-psap/llm-d-bench
-  org: "openshift-psap"
-  description: "Benchmarking automation for llm-d distributed LLM inference on Kubernetes."
-  role: "Creator"
-
 - name: "GuideLLM"
   url: https://github.com/vllm-project/guidellm
   org: "vllm-project"
   description: "SLO-aware benchmarking and evaluation platform for LLM deployments that simulates production workloads against OpenAI-compatible and vLLM-native servers."
   role: "Maintainer"
+
+- name: "Performance-Analysis-Agent"
+  url: https://github.com/openshift-psap/Performance-Analysis-Agent
+  org: "openshift-psap"
+  description: "AI-powered analysis of vLLM benchmark data across models, versions, accelerators, and workloads."
+  role: "Creator"
+
+- name: "vllm-profiler"
+  url: https://github.com/openshift-psap/vllm-profiler
+  org: "openshift-psap"
+  description: "Kubernetes mutating admission webhook that transparently injects PyTorch profiler instrumentation into vLLM serving pods, capturing CPU and CUDA traces with no code changes or rebuilds."
+  role: "Creator"
+
+- name: "fournos"
+  url: https://github.com/openshift-psap/fournos
+  org: "openshift-psap"
+  description: "Kubernetes operator that schedules benchmark jobs via Kueue and executes them as Tekton PipelineRuns on remote clusters through the FORGE framework."
+  role: "Creator"
+
+- name: "forge"
+  url: https://github.com/openshift-psap/forge
+  org: "openshift-psap"
+  description: "Framework for Orchestrating Runtime Gen-AI Experiments — a CI-first harness for reproducible, observable performance and scale testing of AI/ML workloads on OpenShift."
+  role: "Creator"
+
+- name: "inference-playbooks"
+  url: https://github.com/openshift-psap/inference-playbooks
+  org: "openshift-psap"
+  description: "Curated, reproducible deployment recipes that connect a model, serving stack, hardware profile, workload, and auditable benchmark evidence for running LLMs on OpenShift/Kubernetes."
+  role: "Creator"
+
+- name: "serveit-studio"
+  url: https://github.com/openshift-psap/serveit-studio
+  org: "openshift-psap"
+  description: "Automated LLM inference optimization for Kubernetes — deploys real vLLM instances, sweeps configurations across aggregated, disaggregated, and expert-parallel architectures, and ranks the optimal setup by TTFT and throughput."
+  role: "Creator"
+
+- name: "self-hosted-llm-cost-calculator"
+  url: https://github.com/openshift-psap/self-hosted-llm-cost-calculator
+  org: "openshift-psap"
+  description: "Interactive cost calculator comparing self-hosted open-weight LLM inference against frontier API providers."
+  role: "Creator"
